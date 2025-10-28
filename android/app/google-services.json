@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "975201092112",
+    "project_id": "authentic-wave",
+    "storage_bucket": "authentic-wave.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975201092112:android:c67fa2fcc8e63bb6614095",
+        "android_client_info": {
+          "package_name": "com.example.auth_demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALfnTa0YTbAeRyciV2QBJYRqgCYzKhvnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975201092112:android:f5fa7cc3f20f69e0614095",
+        "android_client_info": {
+          "package_name": "com.example.authentication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALfnTa0YTbAeRyciV2QBJYRqgCYzKhvnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
