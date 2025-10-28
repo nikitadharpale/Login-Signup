@@ -25,9 +25,9 @@ class AuthController extends GetxController {
   /// Set initial screen based on auth state
   void _setInitialScreen(User? user) {
     if (user == null) {
-      Get.offAll(() => const LoginScreen());
+      Get.offAll(() =>  LoginScreen());
     } else {
-      Get.offAll(() => const HomeScreen());
+      Get.offAll(() =>  HomeScreen());
     }
   }
 
@@ -142,13 +142,13 @@ class AuthController extends GetxController {
       }
 
       _showSnackbar("Success", "Google login successful!");
-      Get.offAll(() => const HomeScreen());
+      Get.offAll(() => HomeScreen());
     } catch (e) {
       Get.snackbar(
         "Login Failed",
         e.toString(),
         snackPosition: SnackPosition.BOTTOM,
-        duration: const Duration(seconds: 3),
+        duration: Duration(seconds: 3),
       );
     } finally {
       isLoading.value = false;
@@ -186,8 +186,8 @@ class AuthController extends GetxController {
       snackPosition: SnackPosition.BOTTOM,
       backgroundColor: isError ? Colors.red.shade100 : Colors.green.shade100,
       colorText: isError ? Colors.red.shade900 : Colors.green.shade900,
-      margin: const EdgeInsets.all(12),
-      duration: const Duration(seconds: 3),
+      margin:  EdgeInsets.all(12),
+      duration:  Duration(seconds: 3),
     );
   }
 }
